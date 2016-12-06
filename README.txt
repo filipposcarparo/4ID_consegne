@@ -1,0 +1,3 @@
+utilizzo la classe Queue contenente oltre al costruttore la classe printJob che aquisisce un posto nella coda di stampa (uso un semaforo con tre permessi) e la classe getPrinter che cerca tra tutte le stampanti un libera.In questa classe uso un lock per impedire le race conditions(è una sezione critica);
+uso inoltre una classe job che implementa Runnable, ha in ingresso un coda di stampa e in base a questo richiamo stampa il file;
+Inoltre è presente il  main che crea 10 trhead e li manda in Runnable.
