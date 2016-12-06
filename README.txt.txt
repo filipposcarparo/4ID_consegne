@@ -1,0 +1,1 @@
+idea con i semafor controllo se è possibile mettere in coda con un semaforo
