@@ -1,0 +1,3 @@
+Nel main inizializzo la coda di stampa  e il vettore contenente i Thread,dandogli come Runnable il Job e come nome Thread più indice di posizione, dopo li faccio partire uno per uno in ordine.
+Nella classe Queue si trova il semaforo che mi regola la coda; creo il metodo print che mi acquisirà i permessi dal semaforo, la coda ha una lunghezza massima di 3 quindi il semafor potrà far stampare al massimo 3 stampanti contemporaneamente, dopo aver finito una delle stampe rilascia un permesso in modo che le altri stampanti possano lavorare.
+La classe Job mi manda in output quello che sta facendo la stampante, invia la stampa, aspetta che la coda abbia uno spazio libero, appena lo riceve finisce il run mandando in output la stampa del documento.
