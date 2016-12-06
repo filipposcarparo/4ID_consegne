@@ -1,0 +1,4 @@
+Questo progetto è un progetto di stampa
+Sono 10 stampanti quindi 10 thread
+Quando stampa, la stampante mette in coda il proprio Job
+
